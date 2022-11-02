@@ -14,7 +14,9 @@ function check_prime(num){
     }
     else
     {
+
         console.log(num," is not a prime");
+
     }
   }
   check_prime(10);
