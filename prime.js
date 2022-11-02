@@ -10,11 +10,11 @@ function check_prime(num){
     }
     if(count==0)
     {
-        console.log(num,"prime");
+        console.log(num,"is a prime");
     }
     else
     {
-        console.log(num,"not prime");
+        console.log(num,"is not a prime");
     }
   }
   check_prime(10);
