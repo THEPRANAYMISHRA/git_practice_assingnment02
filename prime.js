@@ -8,13 +8,13 @@ function check_prime(num){
             count++;
         }
     }
-    if(count==0)
+    if(count==2)
     {
-        console.log(num,"prime");
+        console.log(num,"is a prime");
     }
     else
     {
-        console.log(num,"not prime");
+        console.log(num," is not a prime");
     }
   }
   check_prime(10);
